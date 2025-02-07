@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyusha Mutyala - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {margin: 0;padding: 0;}
+        
+        body{font-family: 'Montserrat', sans-serif;}
+        
+        #page {
+            min-height: 200px;
+            width: 60%;
+            min-width: 600px;
+            background: whitesmoke;
+            margin: 50px auto;
+            padding: 30px;
+            color: #27aae1;
+        }
+        
+        .photo {
+            width: 15%;
+            min-width: 130px;
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .contact-info-box {
+            width: 70.9%;
+            display: inline-block;
+        }
+        
+        .name {
+            margin-bottom: -5px;
+        }
+        
+        .job-title {
+            display: inline-block;
+        }
+        
+        .contact-details {
+            background: #27aae1;
+            color: white;
+            text-align: center;
+            margin: auto;
+            margin-top: 25px;
+            padding: 5px;
+            font-size: 15px;
+        }
+        
+        h3 {
+            border: 1px solid #d3d3d3;
+            text-transform: uppercase;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 30px 0 10px;
+        }
+        
+        p, ul, li {
+            font-size: 14px;
+            color: #000;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="photo-and-name">
+            <img src="profile.png" class="photo" alt="Profile Picture">
+            <div class="contact-info-box">
+                <h1 class="name">Pratyusha Mutyala</h1>
+                <h3 class="job-title">Strategy Consultant | Business & AI Enthusiast</h3>
+                <p class="contact-details">San Francisco, CA | pratyusha.mutyala@gmail.com | (347) 238-7396 <br>
+                <a href="https://www.linkedin.com/in/pmutyala" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+
+        <h3>Summary</h3>
+        <p>Analytically and creatively-minded Strategy Consultant passionate about helping businesses through growth stages. Extensive experience in Healthcare, Pharmaceuticals, and Tech, with a strong focus on AI and Business Strategy.</p>
+
+        <h3>Education</h3>
+        <ul>
+            <li><b>University of San Francisco</b> (MBA - Business Analytics, May 2025, GPA: 4.0)</li>
+            <li><b>Emory University</b> (B.S. - Anthropology and Human Biology, May 2017)</li>
+        </ul>
+
+        <h3>Experience</h3>
+        <ul>
+            <li><b>Gartner Consulting</b> (Summer Associate, May – Aug 2024)</li>
+            <li><b>RaaP (Rooms as a Product)</b> (MBA Strategy & Operations Intern, Sept 2023 – May 2024)</li>
+            <li><b>WuXi AppTec</b> (Lab Technician III, Feb 2022 – Apr 2023)</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <p>Python, SQL, Tableau, HubSpot, Excel, Business Strategy, Market Research, AI & Tech Strategy</p>
+
+        <h3>Additional Information</h3>
+        <p><b>Research:</b> Published in Journal of Molecular Biology | <a href="https://pubmed.ncbi.nlm.nih.gov/37327088/" target="_blank">View Publication</a></p>
+        <p><b>Hobbies:</b> Indian Classical Dance, Wordle Champion, Public Speaking</p>
+    </div>
+</body>
+</html>
